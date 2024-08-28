@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>one</title>
+<style type="text/css">
+	*{	
+		margin:0px;
+		padding:0px;
+		font-family:Arial;
+		box-sizing:border-box;
+
+	}
+	#logo-div{
+		width:100%;	
+		background-color:lightgray;
+		min-height:50px;
+		line-height:50px;
+		padding-left:2%;
+		margin-bottom:10px;
+	}
+	#nav-div{
+		width:100%;	
+		background-color:lightgray;
+		min-height:30px;
+		line-height:30px;
+		text-align:center;
+		margin-bottom:10px;
+		
+	}
+	#head-banner-div{
+		width:100%;	
+		background-color:lightgray;
+		min-height:100px;
+		line-height:100px;
+		text-align:center;
+		margin-bottom:10px;
+	}
+	#parent-div{
+		width:100%;	
+		/* background-color:darkgray;
+		min-height:400px; */
+		margin-bottom:10px;
+	}
+
+	#side-div{
+		width:20%;	
+		background-color:lightgray;
+		min-height:400px;
+		float:left;
+		line-height:400px;
+		text-align:center;
+	}
+	#body-div{
+		width:75%;	
+		background-color:lightgray;
+		min-height:400px;
+		float:right;
+		line-height:400px;
+		text-align:center;
+	}
+	.clearfix::after{
+		content:"";
+		display:block;
+		clear:both;
+	}
+	#foot-div{
+		width:100%;	
+		background-color:lightgray;
+		min-height:20px;
+		line-height:20px;
+		text-align:center;
+	}
+	#wrapper-div{
+		width:80%;
+		 
+		margin:auto;
+	}
+</style>
+</head>
+
+<body>
+<div id="wrapper-div">
+ 	<div id="logo-div">
+	Logo
+	</div>
+	<div id="nav-div">
+	Navigation
+	</div>
+	<div id="head-banner-div">
+	Header/Banner
+	</div>
+	 
+	<div id="parent-div" class="clearfix">
+	 	<div id="side-div">
+	 	Side Bar
+		</div>
+		<div id="body-div">
+	 	Body Area
+		</div>
+
+	</div>
+	<div id="foot-div">
+	 	Footer
+	</div>
+</div>
+</body>
+
+</html>
